@@ -33,10 +33,10 @@
 </div>
   </header>
 
-  <main>
-  <section class="grid grid-cols-3 max-w-4/5">
+  <main class="bg-[#f5fff6] py-16 px-2.5 lg:px-4 flex flex-col xl:flex-row lg:justify-center gap-3.5">
+  <section class="xl:w-3/4 grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 mb-5">
   <!-- National Emergency Number -->
-     <div class="mt-8 ml-10 m-5">
+    <div class="mt-8  m-2 p-[32px]  relative shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
       <div class="flex justify-between">
       <img class="w-[60px]" src="assets/emergency.png" alt="">
       <i class="fa-regular fa-heart mt-6"></i>
@@ -56,7 +56,7 @@
     </div>
 
     <!-- Police Helpline Number -->
-     <div class="mt-8 m-5">
+     <div class="mt-8 ml-0 m-2 p-[32px]  relative shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
       <div class="flex justify-between">
       <img class="w-[60px]" src="assets/police.png" alt="">
       <i class="fa-regular fa-heart mt-6"></i>
@@ -76,7 +76,7 @@
     </div>
 
    <!-- Fire Service Number -->
-     <div class="mt-8 m-5">
+     <div class="mt-8  m-2 p-[32px]  relative shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
       <div class="flex justify-between">
       <img class="w-[60px]" src="assets/fire-service.png" alt="">
       <i class="fa-regular fa-heart mt-6"></i>
@@ -95,7 +95,7 @@
     </div>
     </div>
   <!-- Ambulance Service -->
-     <div class="mt-8 ml-10 m-5">
+     <div class="mt-8 ml-0 m-2 p-[32px]  relative shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
       <div class="flex justify-between">
       <img class="w-[60px]" src="assets/ambulance.png" alt="">
       <i class="fa-regular fa-heart mt-6"></i>
@@ -115,7 +115,7 @@
     </div>
 
   <!-- Women & Child Helpline -->
-     <div class="mt-8 m-5">
+     <div class="mt-8  m-2 p-[32px]  relative shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
       <div class="flex justify-between">
       <img class="w-[60px]" src="assets/emergency.png" alt="">
       <i class="fa-regular fa-heart mt-6"></i>
@@ -135,7 +135,7 @@
     </div>
 
     <!-- Anti-Corruption Helpline -->
-     <div class="mt-8 m-5">
+     <div class="mt-8 ml-0 m-2 p-[32px]  relative shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
       <div class="flex justify-between">
       <img class="w-[60px]" src="assets/emergency.png" alt="">
       <i class="fa-regular fa-heart mt-6"></i>
@@ -155,7 +155,7 @@
     </div>
 
     <!-- Electricity Helpline -->
-     <div class="mt-8 ml-10 m-5">
+     <div class="mt-8  m-2 p-[32px]  relative shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
       <div class="flex justify-between">
       <img class="w-[60px]" src="assets/emergency.png" alt="">
       <i class="fa-regular fa-heart mt-6"></i>
@@ -175,7 +175,7 @@
     </div>
 
       <!-- Brac Helpline -->
-     <div class="mt-8 m-5">
+     <div class="mt-8 ml-0 m-2 p-[32px]  relative shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
       <div class="flex justify-between">
       <img class="w-[60px]" src="assets/emergency.png" alt="">
       <i class="fa-regular fa-heart mt-6"></i>
@@ -195,7 +195,7 @@
     </div>
 
      <!-- Bangladesh Railway Helpline  -->
-     <div class="mt-8 m-5">
+     <div class="mt-8  m-2 p-[32px]  relative shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)]">
       <div class="flex justify-between">
       <img class="w-[60px]" src="assets/emergency.png" alt="">
       <i class="fa-regular fa-heart mt-6"></i>
@@ -213,7 +213,19 @@
       <button class="btn w-full h-[40px] bg-[#00A63E] text-white rounded-xl"><i class="fa-solid fa-phone"></i>Call</button>
     </div>
     </div>
-    
+  </section>
+ <section class="bg-white rounded-xl xl:w-1/4" >
+            <div class="flex justify-between items-center p-4">
+                <div class="flex items-center justify-center gap-2">
+                    <i class="fa-regular fa-clock text-xl"></i>
+                    <h2 class="text-xl font-medium leading-7">Call History</h2>
+                </div>
+                <button class="btn bg-[#00A63E] text-white px-9 py-3 rounded-full font-bold leading-6" id="clear-btn">Clear</button>
+            </div>
+            <div id="call-history">
+ 
+            </div>
+            </div>
   </section>
 </main>
 </body>

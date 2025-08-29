@@ -1,11 +1,13 @@
 // Shared functions
 
 function getInputAsNumber(id) {
-    return parseInt(document.getElementById(id).innerText);
+  parseInt(document.getElementById(id).innerText);
+  return
 }
 
 function setInnerText(id, value){
-    return document.getElementById(id).innerText = value;
+    document.getElementById(id).innerText = value;
+    return
 }
 
 
@@ -99,13 +101,3 @@ clearBtn.addEventListener("click", function() {
     parrentElement.innerHTML = "";
     data.length = 0;
 });
-
-
-
-// Hamburger menu on mobile
-
-// const menu = document.getElementById("hamburger-menu");
-
-// menu.addEventListener("click", function(){
-//     document.getElementById("menu-bar").classList.toggle("hidden");
-// })

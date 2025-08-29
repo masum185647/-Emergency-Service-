@@ -1,13 +1,12 @@
 // Shared functions
 
 function getInputAsNumber(id) {
-  parseInt(document.getElementById(id).innerText);
-  return
+  return parseInt(document.getElementById(id).innerText);
 }
 
 function setInnerText(id, value){
-    document.getElementById(id).innerText = value;
-    return
+   return document.getElementById(id).innerText = value;
+    
 }
 
 
